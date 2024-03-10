@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Camila Collado Tejo">
+  <title>Encriptador by Cvmi | Oracle+AluraLATAM</title>
+  <link rel="shortcut icon" href="/assets/img/logo.svg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <div class="header_img">
+
+        <img src="assets/img/logo.svg" alt="LogoAlura" />
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="contenedor">
+      <div class="encriptador">
+        <form class="encriptador_form">
+          <div class="text_in">
+            <textarea name="text_in_area" id="texto" placeholder="Ingresa el texto aqui 😉" required></textarea>
+            <div class="text_in_info">
+              <div class="info">
+                <img src="/assets/img/exclamacion.svg" alt="exclamacion" />
+                <p id="warning">Ingresa solo letras minúsculas y sin acentos 🔎</p>
+              </div>
+              <div class="text_in_btns">
+                <input id="enc" type="button" value="Encriptar" />
+                <input id="des" type="button" value="Desencriptar" />
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="text_out_sec">
+          <div class="out_content">
+            <div class="content" id="default">
+              <div class="text_out_img">
+                <img src="assets/img/gatitoparaalura.png" alt="GatitoPensador" />
+              </div>
+              <p>Ningún mensaje fue encontrado 😿</p>
+              <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="content invisible" id="result">
+              <textarea name="text_out_area" id="texto_out" disabled></textarea>
+              <button id="copiar">Copiar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <footer class="footer">
+    <p>© 2024 - By Camila Belén Collado Tejo 💖 </p>
+    <div class="footer-icon">
+      <a href="https://github.com/undostresdoce"><i class="fab fa-github fa-xl" style="color:black;"></i></a>
+    </div>
+    <div class="footer-icon">
+      <a href="https://www.linkedin.com/in/camila-bel%C3%A9n-collado-tejo-a6671427a/"><i
+          class="fab fa-linkedin-in fa-xl" style="color:black;"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+<script src="/assets/js/script.js"></script>
+
+</html>
